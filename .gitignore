@@ -1,0 +1,28 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Packaging
+build/
+dist/
+*.whl
+*.egg-info/
+
+# Environment files
+.env
+.dev.vars
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Generated outputs: keep the published charts, ignore everything else
+outputs/*
+!outputs/*.png
